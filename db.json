@@ -69,6 +69,20 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 10
+    },
+    {
+      "titulo": "Será que a inteligência artificial será tão poderosa quanto os seres humanos? com Gui Silveira",
+      "descricao": "7 mil visualizações",
+      "url": "https://www.youtube/embed/Kk3vBRqKA2o",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 11
+    },
+    {
+      "titulo": "Vale a pena estudar na Alura? Iniciante em programação",
+      "descricao": "8 mil visualizações",
+      "url": "https://www.youtube.com/embed/jImKLWqnexc",
+      "imagem": "https://th.bing.com/th/id/OIP.LxjI9NMGKBJ3BlB-zS-jqAHaE8?pid=ImgDet&rs=1",
+      "id": 12
     }
   ]
 }
