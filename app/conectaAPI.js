@@ -24,7 +24,7 @@ async function criarVideo(titulo, url, descricao, imagem) {
 	return conexaoConvertida;
 }
 
-async function buscaVideo() {
+async function buscaVideo(termoDeBusca) {
 	const conexao = await fetch(`http://localhost:3000/videos?q=${termoDeBusca}`);
 	const conexaoConvertida = await conexao.json();
 
