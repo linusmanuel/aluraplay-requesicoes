@@ -9,7 +9,6 @@ async function buscaVideo(evento) {
 	const busca = await conectaAPI.buscaVideo(dadosDePesquisa);
 
 	const lista = $('[data-lista]');
-
 	while (lista.firstChild) {
 		lista.removeChild(lista.firstChild);
 	}
@@ -24,6 +23,10 @@ async function buscaVideo(evento) {
 			)
 		);
 	});
+
+	if (busca.lenght == 0) {
+		lista.innerHTML = `<h2 class="mensagem__titulo">Ocorreu um problema. Não foi possível carregar os videos</h2>`;
+	}
 }
 
 const botaoPesquisar = $('[data-botao-pesquisa]');
